@@ -1,6 +1,9 @@
 const fs = require("fs");
 
-const DATA_PATH_token = "../Backend/data/userToken.json";
+const path = require("path");
+
+const DATA_PATH_token = path.join("src", "data", "userToken.json");
+
 // const DATA_PATH_token = "../data/userToken.json";
 
 const Token = {

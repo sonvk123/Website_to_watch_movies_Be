@@ -1,5 +1,5 @@
 const Movies = require("./Movies");
-const paginate = require("../utils/Paging");
+const paginate = require("../src/utils/Paging");
 
 const DATA_PATH_movieList = "../Backend/data/movieList.json";
 const DATA_PATH_genreList = "../Backend/data/genreList.json";
