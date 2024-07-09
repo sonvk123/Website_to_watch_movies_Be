@@ -1,7 +1,9 @@
 const Movies = require("./Movies");
 const paginate = require("../src/utils/Paging");
 
-const DATA_PATH = "../Backend/data/movieList.json";
+// const DATA_PATH = path.join("src", "data", "movieList.json");
+
+const DATA_PATH = "../data/movieList.json";
 
 module.exports = class Search {
   static postSearch(
