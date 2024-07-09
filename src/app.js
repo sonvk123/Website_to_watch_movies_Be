@@ -6,6 +6,8 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+
 app.use(cors());
 
 const { checkAuthentication } = require("./middleware/check");
@@ -26,6 +28,6 @@ app.use(TrailerRouter.routes);
 
 app.use(searchRouter.routes);
 
-app.listen(5000, () => {
-  console.log(`Server is running on port 5000`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
