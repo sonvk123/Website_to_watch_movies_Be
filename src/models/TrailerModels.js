@@ -1,8 +1,8 @@
 const Movies = require("./Movies");
 
-// const DATA_PATH = path.join("src", "data", "videoList.json");
+const DATA_PATH = path.join("src", "data", "videoList.json");
 
-const DATA_PATH = "../data/videoList.json";
+// const DATA_PATH = "../data/videoList.json";
 
 let data_movies;
 module.exports = class TrailerVideo {
