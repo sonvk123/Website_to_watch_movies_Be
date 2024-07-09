@@ -6,7 +6,7 @@ const path = require("path");
 
 const DATA_PATH = path.join("src", "data", "movieList.json");
 
-// const DATA_PATH = "../data/movieList.json";
+// const DATA_PATH = "../src/data/movieList.json";
 
 module.exports = class MoviesRating {
   static getMoviesRating(pageSize, currentPage, cb) {
