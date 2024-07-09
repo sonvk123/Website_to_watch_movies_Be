@@ -1,4 +1,5 @@
 const Movies = require("./Movies");
+
 const paginate = require("../utils/Paging");
 
 const path = require("path");
